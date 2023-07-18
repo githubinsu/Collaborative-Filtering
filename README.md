@@ -6,7 +6,8 @@ Collaborative filtering involves analyzing the purchase histories of users to ca
 The goal of this project is to use collaborative filtering to generate personalized product recommendations for customers. 
 
 ## Data Description
-I have a dataset containing transaction data, where each row represents an individual order and the columns include information such as Order Date, Customer ID, Product Number, Price, Sector, Category, and Subcategory.
+I have utilized publicly available sales data, which has been anonymized and processed for the purpose of analysis.
+The dataset contains transaction data, where each row represents an individual order and the columns include information such as Order Date, Customer ID, Product Number, Price, Sector, Category, and Subcategory.
 
 ## Method
 I used the surprise library to implement collaborative filtering. First, I preprocessed the data by creating a rating for each product based on the number of times a customer has purchased it. Then, I used the surprise library to train an SVD model on this data.
